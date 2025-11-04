@@ -6,6 +6,6 @@
 
 <p align="center">
   <a href="#">
-    <img src="https://skillicons.dev/icons?i=windows" />
+    <img src="https://skillicons.dev/icons?i=windows,powershell" />
   </a>
 </p>
