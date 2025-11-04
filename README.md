@@ -12,13 +12,15 @@
 Windows Server PowerShell Toolkit for Administrators
 Author: Your Name
 Date: 2025-11-04
+<p align="left"> 
 Check System Uptime
 Purpose: Quickly see how long the server has been running.
 Script:
 (Get-Date) - (gcim Win32_OperatingSystem).LastBootUpTime
 Best Practices:
 Use this to confirm if recent reboots occurred after patching or troubleshooting.
-Scan for Open Ports
+</p>
+  Scan for Open Ports
 Purpose: Identify listening ports on the server.
 Script:
 Get-NetTCPConnection | Where-Object { $_.State -eq 'Listen' } | Select-Object LocalAddress, LocalPort
